@@ -1,0 +1,219 @@
+body.pastab{
+    background-image: url("https://wallpaperaccess.com/full/3353887.jpg");
+    color: maroon;
+}
+
+nav ul {
+    display:flex;
+    flex-wrap:wrap;
+    margin:0;
+    padding: 0;
+    z-index: 10;
+}
+
+nav li {
+    display:flex;
+    margin:0;
+    list-style:none;
+    min-width:200px;
+    flex:1;
+    text-align:center;
+    background-color: darkolivegreen;
+    color: white;
+    position: relative;
+}
+
+nav a, a:visited {
+    width:100%;
+    text-decoration:none;
+    padding: 8px 0px;
+    color: white;
+}
+
+
+nav a:hover, a.active {
+    color: cornsilk;
+    background-color:rgb(100, 134, 104);
+    opacity: .7;
+}
+
+.dropdown-content{
+    position: absolute;
+    top: 37px;
+    width: 100%;
+    display: none;
+    z-index: 20;
+    box-shadow: 0 10px 30px 0 darkseagreen;
+    transition: 0.10s;
+}
+
+nav li:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a{
+    font-weight: bold;
+}
+
+.dropdown-content ul{
+    flex-direction: column;
+}
+
+.times{
+    font-family: "Times New Roman", serif;
+}
+
+.title{
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: darkolivegreen;
+}
+
+.res{
+    flex: 1;
+}
+
+.res:hover{
+    box-shadow: 0 10px 30px 0 darkseagreen;
+    transition: 0.10s;
+}
+
+.special{
+    color: cornsilk;
+    width: 530px;
+    min-height: 550px;
+    background-color: darkolivegreen;
+    margin: 5px;
+    border: 10px solid maroon;
+    border-radius: 10px;
+    text-decoration: none;
+    border-style: ridge;
+}
+
+.special-area{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+}
+
+.des{
+    margin: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: cornsilk
+}
+
+.outside{
+    position: relative;
+    width: 1890px;
+    width: 100%;
+    height: 200px;
+    background-color: darkolivegreen;
+    bottom: 0;
+    margin-top: 200px;
+}
+.inside {
+    position: absolute;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 13px;
+}
+
+.homever:hover{
+    box-shadow: 0 10px 30px 0 darkseagreen;
+    transition: 0.10s;
+}
+
+.pasta-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pastasa{
+    color: cornsilk;
+    width: 500px;
+    min-height: 480px;
+    background-color: darkolivegreen;
+    margin: 5px;
+    border: 10px solid maroon;
+    border-radius: 10px;
+    text-decoration: none;
+    border-style: ridge;
+}
+
+.picture-pastasa{
+    width: 495px;
+    height: 500px;
+    border: 2px solid cornsilk;
+    border-radius: 10px;
+}
+
+.pasta{
+    color: cornsilk;
+    width: 450px;
+    min-height: 360px;
+    background-color: darkolivegreen;
+    margin: 5px;
+    border: 10px solid cornsilk;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.picture-pasta{
+    width: 450px;
+    height: 360px;
+}
+
+.pas:hover{
+    box-shadow: 0 50px 50px 0 darkseagreen;
+    transition: 0.2s;
+}
+
+.main-area{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main{
+    color: cornsilk;
+    width: 750px;
+    height: 768px;
+    background-color: darkolivegreen;
+    margin: 5px;
+    border: 10px solid maroon;
+    border-radius: 10px;
+    text-decoration: none;
+    border-style: ridge;
+}
+
+.picture-main{
+    width: 750px;
+    height: 750px;
+}
+
+.category{
+    border: 2px solid cornsilk;
+    border-radius: 10px;
+}
+
+.res-main{
+    width: 750px;
+    height: 750px;
+}
+
+.main-res{
+    width: 750px;
+    height: 800px;
+    border: 10px solid cornsilk;
+    border-radius: 10px;
+    background-color: darkolivegreen;
+}
+
+.main:hover{
+    box-shadow: 0 10px 30px 0 darkseagreen;
+    transition: 0.10s;
+}
