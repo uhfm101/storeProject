@@ -217,3 +217,7 @@ a{
     box-shadow: 0 10px 30px 0 darkseagreen;
     transition: 0.10s;
 }
+
+.fake{
+    background-color: white;
+}
